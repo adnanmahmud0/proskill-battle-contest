@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "contestId": 1,
+    "text": "What is the time complexity of a binary search algorithm?",
+    "answer": "O(log n)"
+  },
+  {
+    "id": 2,
+    "contestId": 1,
+    "text": "What data structure is used to implement a queue?",
+    "answer": "Linked List"
+  },
+  {
+    "id": 3,
+    "contestId": 2,
+    "text": "What is the primary color often associated with trust in logo design?",
+    "answer": "Blue"
+  },
+  {
+    "id": 4,
+    "contestId": 2,
+    "text": "What design principle emphasizes visual balance?",
+    "answer": "Symmetry"
+  }
+]
