@@ -3,8 +3,8 @@ export default function DashboardFooter() {
         <>
             <div className="sm:ml-64">
                 <div className="mx-6 mt-6 pb-6">
-                    <footer className="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased">
-                        <p className="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
+                    <footer className="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 antialiased">
+                        <p className="mb-4 text-sm text-center text-gray-500 sm:mb-0">
                             &copy; 2019-2022{" "}
                             <a
                                 href="https://flowbite.com/"
@@ -19,7 +19,7 @@ export default function DashboardFooter() {
                             <a
                                 href="#"
                                 data-tooltip-target="tooltip-facebook"
-                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
+                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100"
                             >
                                 <svg
                                     className="w-4 h-4"
@@ -39,7 +39,7 @@ export default function DashboardFooter() {
                             <div
                                 id="tooltip-facebook"
                                 role="tooltip"
-                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip"
                             >
                                 Like us on Facebook
                                 <div className="tooltip-arrow" data-popper-arrow></div>
@@ -47,7 +47,7 @@ export default function DashboardFooter() {
                             <a
                                 href="#"
                                 data-tooltip-target="tooltip-twitter"
-                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
+                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100"
                             >
                                 <svg
                                     className="w-4 h-4"
@@ -66,7 +66,7 @@ export default function DashboardFooter() {
                             <div
                                 id="tooltip-twitter"
                                 role="tooltip"
-                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip"
                             >
                                 Follow us on Twitter
                                 <div className="tooltip-arrow" data-popper-arrow></div>
@@ -74,7 +74,7 @@ export default function DashboardFooter() {
                             <a
                                 href="#"
                                 data-tooltip-target="tooltip-github"
-                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
+                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100"
                             >
                                 <svg
                                     className="w-4 h-4"
@@ -94,7 +94,7 @@ export default function DashboardFooter() {
                             <div
                                 id="tooltip-github"
                                 role="tooltip"
-                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip"
                             >
                                 Star us on GitHub
                                 <div className="tooltip-arrow" data-popper-arrow></div>
@@ -102,7 +102,7 @@ export default function DashboardFooter() {
                             <a
                                 href="#"
                                 data-tooltip-target="tooltip-dribbble"
-                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
+                                className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100"
                             >
                                 <svg
                                     className="w-4 h-4"
@@ -122,7 +122,7 @@ export default function DashboardFooter() {
                             <div
                                 id="tooltip-dribbble"
                                 role="tooltip"
-                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+                                className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip"
                             >
                                 Follow us on Dribbble
                                 <div className="tooltip-arrow" data-popper-arrow></div>
@@ -131,7 +131,6 @@ export default function DashboardFooter() {
                     </footer>
                 </div>
             </div>
-
         </>
     );
 }

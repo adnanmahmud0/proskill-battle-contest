@@ -5,12 +5,14 @@ import Newsletter from "../compunent/home/Newsletter";
 
 // src/pages/Home.tsx
 const Home: React.FC = () => {
-  return <h1>
-    <HeroSection />
-    <Count />
-    <Contest />
-    <Newsletter />
-  </h1>;
+  return (
+    <>
+      <HeroSection />
+      <Count />
+      <Contest />
+      <Newsletter />
+    </>
+  );
 };
 
 export default Home;

@@ -15,17 +15,17 @@ const App: React.FC = () => {
   return (
     <>
       {isDashboardRoute ? (
-        <div className="bg-white dark:bg-gray-900">
+        <>
           <DashboardLayout />
           <AppRoutes />
-          <DashboardFooter  />
-        </div>
+          <DashboardFooter />
+        </>
       ) : (
-        <div className="bg-white dark:bg-gray-900">
+        <>
           <Navbar />
           <AppRoutes />
           <Footer />
-        </div>
+        </>
       )}
     </>
   );
